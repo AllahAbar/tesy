@@ -31,6 +31,6 @@ Route::get('/getdb', function () {
 Route::get('/hh', [testController::class, 'show']);
 Route::post('/hh', [testController::class, 'new'])->name('loginn');
 
-route:get('hiew', function(){
+route::get('hiew', function(){
     return "hello";
 });
