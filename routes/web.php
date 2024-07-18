@@ -26,3 +26,7 @@ Route::get('/getdb', function () {
     else
     return "you wrong";
 });
+
+route::get('/re', function(){
+    return "aoiweroaweoiri";
+});
