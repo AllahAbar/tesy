@@ -27,6 +27,6 @@ Route::get('/getdb', function () {
     return "you wrong";
 });
 
-route::get('/hellothere', function(){
+route::get('/jjj', function(){
     return "aoiweroaweoiri";
 });
