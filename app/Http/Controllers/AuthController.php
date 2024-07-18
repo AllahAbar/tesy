@@ -131,4 +131,5 @@ class AuthController extends Controller
                     : response()->json(['error' => 'Unable to reset password'], 400);
     }
 
+
 }

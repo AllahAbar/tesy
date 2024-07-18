@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\testController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,6 +28,9 @@ Route::get('/getdb', function () {
     return "you wrong";
 });
 
-route::get('/jjj', function(){
-    return "aoiweroaweoiri";
+Route::get('/hh', [testController::class, 'show']);
+Route::post('/hh', [testController::class, 'new'])->name('loginn');
+
+route:get('hiew', function(){
+    return "hello";
 });
